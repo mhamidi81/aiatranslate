@@ -5,7 +5,7 @@
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			 <pattern>
-			     web - %date [%thread] %-5level %logger{5} - %message%n%stack{5,1}
+			     APP_LOG - %date [%thread] %-5level %logger - %message%n%stack{5,1}
 			</pattern>
 		</encoder>
 		
